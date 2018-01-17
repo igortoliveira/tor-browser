@@ -7,4 +7,5 @@
 DIRS += [
     'e10srollout',
     'pdfjs',
+    'torbutton',
 ]
