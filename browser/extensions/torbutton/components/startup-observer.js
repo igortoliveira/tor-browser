@@ -27,6 +27,7 @@ XPCOMUtils.defineLazyModuleGetter(this, "FileUtils",
 const kMODULE_NAME = "Startup";
 const kMODULE_CONTRACTID = "@torproject.org/startup-observer;1";
 const kMODULE_CID = Components.ID("06322def-6fde-4c06-aef6-47ae8e799629");
+const kHOMEPAGE = "about:tor";
 
 function StartupObserver() {
     this.logger = Cc["@torproject.org/torbutton-logger;1"]
@@ -37,11 +38,9 @@ function StartupObserver() {
     var env = Cc["@mozilla.org/process/environment;1"]
                 .getService(Ci.nsIEnvironment);
     var prefName = "browser.startup.homepage";
-    if (env.exists("TOR_DEFAULT_HOMEPAGE")) {
-      // if the user has set this value in a previous installation, don't override it
-      if (!this._prefs.prefHasUserValue(prefName)) {
-        this._prefs.setCharPref(prefName, env.get("TOR_DEFAULT_HOMEPAGE"));
-      }
+    // if the user has set this value in a previous installation, don't override it
+    if (!this._prefs.prefHasUserValue(prefName)) {
+      this._prefs.setCharPref(prefName, env.get("TOR_DEFAULT_HOMEPAGE") || kHOMEPAGE);
     }
 
     try {
