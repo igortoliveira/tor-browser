@@ -1,0 +1,50 @@
+<!ENTITY torbutton.context_menu.new_identity "Nieuwe Identiteit">
+<!ENTITY torbutton.context_menu.new_identity_key "I">
+<!ENTITY torbutton.context_menu.new_circuit "Nieuw Tor-circuit voor deze website">
+<!ENTITY torbutton.context_menu.new_circuit_key "C">
+<!ENTITY torbutton.context_menu.preferences "Beveiligingsinstellingen…">
+<!ENTITY torbutton.context_menu.preferences.key "S">
+<!ENTITY torbutton.context_menu.networksettings "Tor-netwerkinstellingen…">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Controleer op updates voor de Tor-browser...">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "U">
+<!ENTITY torbutton.context_menu.cookieProtections "Cookie Beveiligingen">
+<!ENTITY torbutton.context_menu.cookieProtections.key "C">
+<!ENTITY torbutton.button.tooltip "Klik hier om Tor-knop te initialiseren">
+<!ENTITY torbutton.prefs.security_settings "Tor-browser Beveiligingsinstellingen">
+<!ENTITY torbutton.prefs.restore_defaults "Standaardwaarden herstellen">
+<!ENTITY torbutton.prefs.custom_warning "Je aangepaste browservoorkeuren hebben geleid tot ongebruikelijke beveiligingsinstellingen. Uit veiligheids- en privacy-overwegingen raden we je aan één van de standaardbeveiligingsniveaus te kiezen.">
+<!ENTITY torbutton.cookiedialog.title "Beheer Cookie Beveiligingen">
+<!ENTITY torbutton.cookiedialog.lockCol "Beveiligd">
+<!ENTITY torbutton.cookiedialog.domainCol "Host">
+<!ENTITY torbutton.cookiedialog.nameCol "Naam">
+<!ENTITY torbutton.cookiedialog.pathCol "Pad">
+<!ENTITY torbutton.cookiedialog.protectCookie "Cookie beveiligen">
+<!ENTITY torbutton.cookiedialog.removeCookie "Cookie verwijderen">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Cookie beveiliging opheffen">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Alle cookies, met uitzondering van de beveiligde, verwijderen">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Beveilig nieuwe cookies">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Beveilig nieuwe cookies niet">
+<!ENTITY torbutton.prefs.restrict_thirdparty "Beperk cookies en andere tracking-gegevens van derden">
+<!ENTITY torbutton.prefs.restrict_thirdparty.accesskey "R">
+<!ENTITY torbutton.prefs.restrict_thirdparty_tooltip "Vink dit vakje aan om te voorkomen dat functies van je browser worden misbruikt om je te volgen op het internet. Gemodificeerde functies zijn o.a. URL's, uitzendingskanalen, de browsercache, cookies, favicons, HTTP Auth headers, koppeling-voorverbindingen, lokale opslag, mediabron-URL's, OCSP-verzoeken, Gedeelde-werkers en TLS-sessietickets.">
+<!ENTITY torbutton.prefs.resist_fingerprinting "Verander details die je onderscheiden van andere Tor Browser gebruikers">
+<!ENTITY torbutton.prefs.resist_fingerprinting.accesskey "F">
+<!ENTITY torbutton.prefs.resist_fingerprinting_tooltip "Houd deze box aangevinkt om dingen te verbergen voor website die uniek kunnen zijn voor u, inclusief uw computer prestaties, toetsenbord layout, locatie, de locatie van geïnstalleerde plugins, de lijst van geïnstalleerde plugins, uw netwerk status, scherm oriëntatie, scherm grootte, site-specifieke zoom levels, ondersteunde bestands types, systeem kleuren, en WebGL mogelijkheden.">
+<!ENTITY torbutton.prefs.sec_caption "Beveiligingsniveau">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "De beveiligingsschuifbalk laat je toe sommige functies uit te schakelen die je browser mogelijk blootstellen aan beveiligingsrisico's.">
+<!ENTITY torbutton.prefs.sec_standard_label "Standard">
+<!ENTITY torbutton.prefs.sec_standard_description "All Tor Browser and website features are enabled.">
+<!ENTITY torbutton.prefs.sec_safer_label "Safer">
+<!ENTITY torbutton.prefs.sec_safer_description "Disables website features that are often dangerous, causing some sites to lose functionality.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "At the safer setting:">
+<!ENTITY torbutton.prefs.sec_safest_label "Safest">
+<!ENTITY torbutton.prefs.sec_safest_description "Only allows website features required for static sites and basic services. These changes affect images, media, and scripts.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "At the safest setting:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Learn more">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript is disabled on non-HTTPS sites.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript is disabled by default on all sites.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Some fonts and math symbols are disabled.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Some fonts, icons, math symbols, and images are disabled.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Audio and video (HTML5 media) are click-to-play.">
+<!ENTITY torbutton.circuit_display.title "Tor-circuit voor deze website">
