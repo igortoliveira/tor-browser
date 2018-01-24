@@ -1,0 +1,50 @@
+<!ENTITY torbutton.context_menu.new_identity "Nova Identidade">
+<!ENTITY torbutton.context_menu.new_identity_key "Eu">
+<!ENTITY torbutton.context_menu.new_circuit "Novo Circuito Tor para este Site">
+<!ENTITY torbutton.context_menu.new_circuit_key "C">
+<!ENTITY torbutton.context_menu.preferences "Configurações de Segurança...">
+<!ENTITY torbutton.context_menu.preferences.key "S">
+<!ENTITY torbutton.context_menu.networksettings "Configurações da Rede Tor...">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Procurar Atualizações do Navegador Tor...">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "U">
+<!ENTITY torbutton.context_menu.cookieProtections "Proteções de Cookies...">
+<!ENTITY torbutton.context_menu.cookieProtections.key "C">
+<!ENTITY torbutton.button.tooltip "Clique para iniciar o Torbutton">
+<!ENTITY torbutton.prefs.security_settings "Configurações de Segurança do Navegador Tor">
+<!ENTITY torbutton.prefs.restore_defaults "Restaurar Padrões">
+<!ENTITY torbutton.prefs.custom_warning "As configurações personalizadas do seu navegador ficaram fora do comum. Por razões de segurança e de privacidade, recomendamos que você escolha um dos níveis padrões de segurança. ">
+<!ENTITY torbutton.cookiedialog.title "Gerenciar Proteções de Cookies">
+<!ENTITY torbutton.cookiedialog.lockCol "Protegido">
+<!ENTITY torbutton.cookiedialog.domainCol "Hospedeiro">
+<!ENTITY torbutton.cookiedialog.nameCol "Nome">
+<!ENTITY torbutton.cookiedialog.pathCol "Caminho">
+<!ENTITY torbutton.cookiedialog.protectCookie "Proteger Cookie">
+<!ENTITY torbutton.cookiedialog.removeCookie "Remover Cookie">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Desproteger Cookie">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Remover Todos Exceto os Protegidos">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Proteger Novos Cookies">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Não Proteger Novos Cookies">
+<!ENTITY torbutton.prefs.restrict_thirdparty "Restringir os cookies de terceiros e outros dados de rastreamento">
+<!ENTITY torbutton.prefs.restrict_thirdparty.accesskey "R">
+<!ENTITY torbutton.prefs.restrict_thirdparty_tooltip "Deixe esta opção sempre marcada para impedir que funcionalidades de navegação sejam usadas para rastreá-la(o) durante a sua navegação. Funcionalidades alteradas incluem janelas pop-up, canais de transmissão, o cache de memória, cookies, favicons, ">
+<!ENTITY torbutton.prefs.resist_fingerprinting "Alterar os detalhes  que distinguem você de outros usuários do Navegador Tor">
+<!ENTITY torbutton.prefs.resist_fingerprinting.accesskey "F">
+<!ENTITY torbutton.prefs.resist_fingerprinting_tooltip "Manter esta opção ativa para ocultar de websites as suas informações que podem ser individuais: performance do computador, modelo de teclado, local, a localização e a lista dos plugins instalados, o status da sua conexão, a orientação de tela, o tamanho da tela, os níveis de zoom de certos sites, os tipos de arquivos que possuem suporte, o sistema de cores, e os recursos WebGL.">
+<!ENTITY torbutton.prefs.sec_caption "Nível de Segurança">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "The Security Slider possibilita que você desabilite certas funcionalidades de navegação que podem torná-la mais vulnerável a tentativas de ataque.">
+<!ENTITY torbutton.prefs.sec_standard_label "Padrão">
+<!ENTITY torbutton.prefs.sec_standard_description "Todos os recursos do Navegador Tor e do website estão ativos.">
+<!ENTITY torbutton.prefs.sec_safer_label "Mais seguro">
+<!ENTITY torbutton.prefs.sec_safer_description "Desativar recursos geralmente inseguros de websites, o que pode fazer com que alguns sites percam a funcionalidade.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "No nível mais seguro:">
+<!ENTITY torbutton.prefs.sec_safest_label "Mais seguro">
+<!ENTITY torbutton.prefs.sec_safest_description "Apenas permitir os recursos dos websites necessários para sites estáticos e serviços básicos. Essas mudanças afetam imagens, mídias e scripts.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "No nível mais seguro:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Aprenda mais">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript está desativado em todos os sites sem HTTPS.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript está desativado por padrão em todos os sites.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Algumas fontes e símbolos matemáticos estão desativados.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Algumas fontes, ícones, símbolos matemáticas e imagens estão desativadas.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Clicar para tocar ou ver áudio ou vídeo (mídia HTML5).">
+<!ENTITY torbutton.circuit_display.title "Circuito Tor para este site">

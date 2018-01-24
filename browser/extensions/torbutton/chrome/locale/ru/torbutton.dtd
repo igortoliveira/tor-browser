@@ -1,0 +1,50 @@
+<!ENTITY torbutton.context_menu.new_identity "Новая личность">
+<!ENTITY torbutton.context_menu.new_identity_key "Я">
+<!ENTITY torbutton.context_menu.new_circuit "Новая цепочка Tor для этого cайта">
+<!ENTITY torbutton.context_menu.new_circuit_key "C">
+<!ENTITY torbutton.context_menu.preferences "Настройки безопасности...">
+<!ENTITY torbutton.context_menu.preferences.key "S">
+<!ENTITY torbutton.context_menu.networksettings "Настройки сети Tor">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Проверить на наличие обновлений Tor Browser">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "U">
+<!ENTITY torbutton.context_menu.cookieProtections "Защита куки-файла">
+<!ENTITY torbutton.context_menu.cookieProtections.key "C">
+<!ENTITY torbutton.button.tooltip "Нажмите, чтобы инициализировать Torbutton">
+<!ENTITY torbutton.prefs.security_settings "Настройки безопасности Tor Browser">
+<!ENTITY torbutton.prefs.restore_defaults "Восстановить значения по умолчанию">
+<!ENTITY torbutton.prefs.custom_warning "Ваши настройки браузера, привели к необычным параметрам безопасности. По соображениям безопасности и конфиденциальности, мы рекомендуем вам выбрать один из уровней безопасности по умолчанию.">
+<!ENTITY torbutton.cookiedialog.title "Управление защитой куки-файлов">
+<!ENTITY torbutton.cookiedialog.lockCol "Защищено">
+<!ENTITY torbutton.cookiedialog.domainCol "Ведущий узел">
+<!ENTITY torbutton.cookiedialog.nameCol "Имя">
+<!ENTITY torbutton.cookiedialog.pathCol "Путь">
+<!ENTITY torbutton.cookiedialog.protectCookie "Защищать куки-файлы">
+<!ENTITY torbutton.cookiedialog.removeCookie "Удалить куки-файлы">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Снять защиту куки-файлов">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Удалить все, кроме защищённых">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Защищать новые куки-файлы">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Не защищать новые куки-файлы">
+<!ENTITY torbutton.prefs.restrict_thirdparty "Блокировать сторонние куки-файлы и другие данные слежения">
+<!ENTITY torbutton.prefs.restrict_thirdparty.accesskey "R">
+<!ENTITY torbutton.prefs.restrict_thirdparty_tooltip "Оставьте флажок напротив этой функции отмеченным, чтобы защитить многие функции обозревателя от элементов отслеживания ваших действий во время серфинга в сети. Модифицированные компоненты включают в себя ссылки на блобы, транслируемые каналы, кэш браузера, файлы куки, значки, заголовки аутентификации HTTP, ссылки предпросмотра, локальное хранилище, ссылки на медиаконтент, запросы OCSP, SharedWorkers и объявления сессии TLS.">
+<!ENTITY torbutton.prefs.resist_fingerprinting "Изменить сведения, отличающие вас от других пользователей Tor Browser">
+<!ENTITY torbutton.prefs.resist_fingerprinting.accesskey "F">
+<!ENTITY torbutton.prefs.resist_fingerprinting_tooltip "Оставьте флажок напротив этой функции отмеченным, чтобы скрыть от веб-узлов вещи , которые могут быть уникальными для вас, включая производительность компьютера, раскладку клавиатуры, язык, расположение и список установленных плагинов, состояние сети, ориентацию и размер экрана , значения масштабирования для конкретных узлов, поддерживаемые типы файлов, системные цвета и возможности WebGL.">
+<!ENTITY torbutton.prefs.sec_caption "Уровень безопасности">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "Ползунок безопасности позволяет вам запретить некоторые особенности обозревателя, которые могут сделать ваш браузер более уязвимым к попыткам взлома.">
+<!ENTITY torbutton.prefs.sec_standard_label "Стандартные">
+<!ENTITY torbutton.prefs.sec_standard_description "Все функции Tor Browser и веб-сайтов включены.">
+<!ENTITY torbutton.prefs.sec_safer_label "Более безопасные">
+<!ENTITY torbutton.prefs.sec_safer_description "Отключены функции веб-сайтов, которые часто бывают опасны, что может привести к потере функциональности некоторыми сайтами.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "При более безопасных настройках:">
+<!ENTITY torbutton.prefs.sec_safest_label "Наиболее безопасные">
+<!ENTITY torbutton.prefs.sec_safest_description "Разрешены только функции веб-сайтов, требующиеся для статических сайтов и основных сервисов. Эти изменения влияют на изображения, медиа и скрипты.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "При самых безопасных настройках:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Подробнее">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only " JavaScript отключён на всех не HTTPS сайтах. ">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript отключен по умолчанию на всех сайтах.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Некоторые шрифты и математические символы отключены.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Некоторые шрифты, значки, математические символы и изображения отключены.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Аудио и видео (HTML5 медиа) проигрываются только после клика.">
+<!ENTITY torbutton.circuit_display.title "Цепочка Tor для этого сайта">

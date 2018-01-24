@@ -1,0 +1,50 @@
+<!ENTITY torbutton.context_menu.new_identity "Ny identitet">
+<!ENTITY torbutton.context_menu.new_identity_key "N">
+<!ENTITY torbutton.context_menu.new_circuit "Ny Tor-krets för den här webbplatsen">
+<!ENTITY torbutton.context_menu.new_circuit_key "S">
+<!ENTITY torbutton.context_menu.preferences "Säkerhetsinställningar...">
+<!ENTITY torbutton.context_menu.preferences.key "S">
+<!ENTITY torbutton.context_menu.networksettings "Tor-nätverksinställningar...">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Sök efter uppdateringar för Tor webbläsare...">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "U">
+<!ENTITY torbutton.context_menu.cookieProtections "Skydd mot Cookies...">
+<!ENTITY torbutton.context_menu.cookieProtections.key "S">
+<!ENTITY torbutton.button.tooltip "Klicka för att initialisera Torbutton">
+<!ENTITY torbutton.prefs.security_settings "Tor-webbläsares säkerhetsinställningar">
+<!ENTITY torbutton.prefs.restore_defaults "Återställ standard">
+<!ENTITY torbutton.prefs.custom_warning "Dina anpassade webbläsarinställningar har resulterat i ovanliga säkerhetsinställningar. Av säkerhets- och integritetsskäl rekommenderar vi att du använder en av de fördefinierade säkerhetsnivåerna.">
+<!ENTITY torbutton.cookiedialog.title "Hantera Cookies skydd">
+<!ENTITY torbutton.cookiedialog.lockCol "Skyddad">
+<!ENTITY torbutton.cookiedialog.domainCol "Värd">
+<!ENTITY torbutton.cookiedialog.nameCol "Namn">
+<!ENTITY torbutton.cookiedialog.pathCol "Sökväg">
+<!ENTITY torbutton.cookiedialog.protectCookie "Skydda Cookie">
+<!ENTITY torbutton.cookiedialog.removeCookie "Ta bort Cookie">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Oskydda Cookie">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Ta bort alla icke-skyddade">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Skydda nya Cookies">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Skydda inte nya Cookies">
+<!ENTITY torbutton.prefs.restrict_thirdparty "Begränsa tredjeparts-cookies och annan tracking data">
+<!ENTITY torbutton.prefs.restrict_thirdparty.accesskey "R">
+<!ENTITY torbutton.prefs.restrict_thirdparty_tooltip "Behåll det här alternativet valt för att förhindra olika webbläsarfunktioner från att missbrukas för att spåra dig när du surfar på nätet. Ändrade funktioner inkluderar blob-URLer, broadcastkanaler, webbläsar-cache, cookies, favicons, HTTP-Auth-huvuden, länk-föranslutningar, localStorage, mediaSource URLer, OCSP-förfrågningar, SharedWorkers och TLS-sessionstickets.">
+<!ENTITY torbutton.prefs.resist_fingerprinting "Ändra detailjer som utmärker dig ifrån andra Tor Browser användare">
+<!ENTITY torbutton.prefs.resist_fingerprinting.accesskey "F">
+<!ENTITY torbutton.prefs.resist_fingerprinting_tooltip "Låt den här kryssrutan vara ikryssad för att dölja saker från webbplatser som kan vara unika för just dig, såsom datorprestanda, tangentbordslayout, språkinställningar, plats för installerade plugin, lista över installerade plugin, nätverksstatus, skärmorientering, skärmstorlek, platsspecifika zoomnivåer, filtypsstöd, systemfärger, och WebGL-stöd.">
+<!ENTITY torbutton.prefs.sec_caption "Säkerhetsnivå">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "Säkerhetsreglaget låter dig stänga av vissa webbläsarfunktioner som kan göra din webbläsare mer sårbar mot intrångsförsök.">
+<!ENTITY torbutton.prefs.sec_standard_label "Standard">
+<!ENTITY torbutton.prefs.sec_standard_description "Alla funktioner för Tor Browser och webbplatsfunktioner är aktiverade.">
+<!ENTITY torbutton.prefs.sec_safer_label "Säkrare">
+<!ENTITY torbutton.prefs.sec_safer_description "Inaktiverar webbplatsfunktioner som ofta är farliga, vilket gör att vissa webbplatser förlorar funktionalitet.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "I den säkrare inställningen:">
+<!ENTITY torbutton.prefs.sec_safest_label "Säkrast">
+<!ENTITY torbutton.prefs.sec_safest_description "Tillåt endast webbplatsfunktioner som krävs för statiska webbplatser och grundläggande tjänster. Dessa förändringar påverkar bilder, media och skript.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "I den säkraste inställningen:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Läs mer">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript är inaktiverat på webbplatser utan HTTPS.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript är inaktiverat som standard på alla webbplatser.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Vissa typsnitt och matte symboler är inaktiverade.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Vissa typsnitt, ikoner, matte symboler och bilder är inaktiverade.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Ljud och video (HTML5-media) är klicka-för-att-spel.">
+<!ENTITY torbutton.circuit_display.title "Tor-krets för den här webbplatsen">
