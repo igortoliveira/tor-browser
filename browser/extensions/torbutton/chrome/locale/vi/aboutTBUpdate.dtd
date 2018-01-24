@@ -1,0 +1,6 @@
+<!ENTITY aboutTBUpdate.title "Nâng cấp trình duyệt Tor">
+<!ENTITY aboutTBUpdate.updated "Trình duyệt Tor đã được cập nhật">
+<!ENTITY aboutTBUpdate.linkPrefix "Dành cho những thông tin cập nhật mới nhất về bản phát hành này,">
+<!ENTITY aboutTBUpdate.linkLabel  "đến thăm trang của chúng tôi">
+<!ENTITY aboutTBUpdate.linkSuffix ".">
+<!ENTITY aboutTBUpdate.changeLogHeading "Nhật ký thay đổi:">

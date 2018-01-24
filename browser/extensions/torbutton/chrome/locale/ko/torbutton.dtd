@@ -1,0 +1,50 @@
+<!ENTITY torbutton.context_menu.new_identity "새로운 신원">
+<!ENTITY torbutton.context_menu.new_identity_key "I">
+<!ENTITY torbutton.context_menu.new_circuit "Tor 서킷 재구축">
+<!ENTITY torbutton.context_menu.new_circuit_key "C">
+<!ENTITY torbutton.context_menu.preferences "보안 설정...">
+<!ENTITY torbutton.context_menu.preferences.key "S">
+<!ENTITY torbutton.context_menu.networksettings "토르 네트워크 설정...">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "토르 브라우저 업데이트 체크하기...">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "U">
+<!ENTITY torbutton.context_menu.cookieProtections "쿠키 보호....">
+<!ENTITY torbutton.context_menu.cookieProtections.key "C">
+<!ENTITY torbutton.button.tooltip "Torbutton 설정 초기화">
+<!ENTITY torbutton.prefs.security_settings "Tor 브라우저 보안 설정">
+<!ENTITY torbutton.prefs.restore_defaults "기본값으로 복구">
+<!ENTITY torbutton.prefs.custom_warning "사용자 지정 브라우저 기본 설정으로 인해 비정상적인 보안 설정이 발생했습니다. 보안 및 개인 정보 보호를 위해 기본 보안 수준 중 하나를 선택하는 것이 좋습니다.">
+<!ENTITY torbutton.cookiedialog.title "쿠키 보호 관리">
+<!ENTITY torbutton.cookiedialog.lockCol "보호됨">
+<!ENTITY torbutton.cookiedialog.domainCol "Host">
+<!ENTITY torbutton.cookiedialog.nameCol "이름">
+<!ENTITY torbutton.cookiedialog.pathCol "경로">
+<!ENTITY torbutton.cookiedialog.protectCookie "쿠키 보호">
+<!ENTITY torbutton.cookiedialog.removeCookie "쿠키 삭제">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "쿠키 보호하지 않음">
+<!ENTITY torbutton.cookiedialog.removeAllBut "보호된 것 빼고 모두 지우기">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "새로운 쿠키 보호">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "새로운 쿠키를 보호하지 않음">
+<!ENTITY torbutton.prefs.restrict_thirdparty "제 3자 쿠키와 다른 추적 데이터 제한">
+<!ENTITY torbutton.prefs.restrict_thirdparty.accesskey "R">
+<!ENTITY torbutton.prefs.restrict_thirdparty_tooltip "웹을 탐색 할 때 다양한 브라우저 기능이 사용자를 추적하는 것을 막기 위해이 상자를 선택하십시오. 수정 된 기능에는 blob URL, 브로드 캐스트 채널, 브라우저 캐시, 쿠키, 파비콘, HTTP Auth 헤더, 링크 사전 연결, localStorage, mediaSource URL, OCSP 요청, SharedWorkers 및 TLS 세션 티켓이 포함됩니다.">
+<!ENTITY torbutton.prefs.resist_fingerprinting "다른 Tor browser 사용자로부터 구별되는 세부 사항 변경">
+<!ENTITY torbutton.prefs.resist_fingerprinting.accesskey "F">
+<!ENTITY torbutton.prefs.resist_fingerprinting_tooltip "이 상자를 체크 해둠으로써 웹사이트가 당신의 식별 할 수 있는 요소를 숨길 수 있습니다. 그것에는 컴퓨터 성능, 키보드 레이아웃, 로케일, 플러그인이 설치된 장소, 설치된 플러그인의 목록, 네트워크 상태, 화면 방향, 화면 크기, 사이트 별 확대 / 축소 수준, 지원되는 파일 형식, 시스템 색, WebGL 기능 등이 있습니다.">
+<!ENTITY torbutton.prefs.sec_caption "보안 등급">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "보안 슬라이더를 사용하면 특정 브라우저 기능이 비활성화 되어 브라우저가 해킹 시도에 취약해질 수 있습니다.">
+<!ENTITY torbutton.prefs.sec_standard_label "Standard">
+<!ENTITY torbutton.prefs.sec_standard_description "All Tor Browser and website features are enabled.">
+<!ENTITY torbutton.prefs.sec_safer_label "Safer">
+<!ENTITY torbutton.prefs.sec_safer_description "Disables website features that are often dangerous, causing some sites to lose functionality.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "At the safer setting:">
+<!ENTITY torbutton.prefs.sec_safest_label "Safest">
+<!ENTITY torbutton.prefs.sec_safest_description "Only allows website features required for static sites and basic services. These changes affect images, media, and scripts.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "At the safest setting:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Learn more">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript is disabled on non-HTTPS sites.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript is disabled by default on all sites.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Some fonts and math symbols are disabled.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Some fonts, icons, math symbols, and images are disabled.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Audio and video (HTML5 media) are click-to-play.">
+<!ENTITY torbutton.circuit_display.title "이 사이트 에서 의 Tor 회로">

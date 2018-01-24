@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  brandShorterName      "Trình duyệt Tor">
+<!ENTITY  brandShortName        "Trình duyệt Tor">
+<!ENTITY  brandFullName         "Trình duyệt Tor">
+<!ENTITY  vendorShortName       "Dự án Tor">
+<!ENTITY  trademarkInfo.part1   "Firefox và logo của Firefox là thương hiệu của Tổ chức Mozilla">
+
+<!-- The following strings are for bug #10280's UI. We place them here for our translators -->
+<!ENTITY plugins.installed.find "Bấm chuột để tải những những chương trình gắn thêm vào hệ thống đã được cài đặt">
+<!ENTITY plugins.installed.enable "Cho phép những chương trình gắn thêm">
+<!ENTITY plugins.installed.disable "Vô hiệu những chương trình gắn thêm">
+<!ENTITY plugins.installed.disable.tip "Bấm chuột để ngăn chặn việc tải những những chương trình gắn thêm vào hệ thống">

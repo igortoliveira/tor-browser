@@ -1,0 +1,50 @@
+<!ENTITY torbutton.context_menu.new_identity "Nowa Tożsamość">
+<!ENTITY torbutton.context_menu.new_identity_key "o">
+<!ENTITY torbutton.context_menu.new_circuit "Nowy obwód dla tej strony">
+<!ENTITY torbutton.context_menu.new_circuit_key "c">
+<!ENTITY torbutton.context_menu.preferences "Ustawienia bezpieczeństwa...">
+<!ENTITY torbutton.context_menu.preferences.key "S">
+<!ENTITY torbutton.context_menu.networksettings "Ustawienia Sieci Tor...">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Sprawdź czy są aktualizacje Tor Browser...">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "u">
+<!ENTITY torbutton.context_menu.cookieProtections "Ochrona plików cookie...">
+<!ENTITY torbutton.context_menu.cookieProtections.key "c">
+<!ENTITY torbutton.button.tooltip "Kliknij tutaj, aby uruchomić Torbutton">
+<!ENTITY torbutton.prefs.security_settings "Ustawienia Bezpieczeństwa Przeglądarki Tor">
+<!ENTITY torbutton.prefs.restore_defaults "Przywróć domyślne">
+<!ENTITY torbutton.prefs.custom_warning "Niestandardowe preferencje przeglądarki spowodowały nietypowe ustawienia zabezpieczeń. Ze względów bezpieczeństwa i prywatności zalecamy wybranie jednego z domyślnych poziomów zabezpieczeń.">
+<!ENTITY torbutton.cookiedialog.title "Zarządzaj ochroną ciasteczek">
+<!ENTITY torbutton.cookiedialog.lockCol "Chronione">
+<!ENTITY torbutton.cookiedialog.domainCol "Host">
+<!ENTITY torbutton.cookiedialog.nameCol "Nazwa">
+<!ENTITY torbutton.cookiedialog.pathCol "Ścieżka">
+<!ENTITY torbutton.cookiedialog.protectCookie "Chroń ciasteczko">
+<!ENTITY torbutton.cookiedialog.removeCookie "Usuń ciasteczko">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Nie chroń ciasteczka">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Usuń wszystkie oprócz chronionych">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Chroń nowe ciasteczka">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Nie chroń nowych ciasteczek">
+<!ENTITY torbutton.prefs.restrict_thirdparty "Ograniczaj ciasteczka firm trzecich i inne dane służące do śledzenia">
+<!ENTITY torbutton.prefs.restrict_thirdparty.accesskey "R">
+<!ENTITY torbutton.prefs.restrict_thirdparty_tooltip "Zachowaj to pole zaznaczone, aby zapobiec nadużyciom różnych funkcji przeglądarki, które śledzą cię podczas przeglądania sieci. Zmodyfikowane funkcje obejmują adresy Blob URL, kanały rozgłoszeniowe, pamięć podręczną przeglądarki, pliki cookie, ikony ulubionych, nagłówki HTTP Auth, wstępne połączenia, localStorage, adresy mediaSource URL, żądania OCSP, SharedWorkers oraz bilety sesji TLS.">
+<!ENTITY torbutton.prefs.resist_fingerprinting "Zmień szczegóły odróżniające Cię od innych użytkowników Przeglądarki Tora">
+<!ENTITY torbutton.prefs.resist_fingerprinting.accesskey "F">
+<!ENTITY torbutton.prefs.resist_fingerprinting_tooltip "Zachowaj to pole zaznaczone, aby ukryć przed stronami internetowymi elementy, które mogą być u ciebie unikalne, wliczając w to wydajność komputera, układ klawiatury, lokalizację, położenie zainstalowanych wtyczek, listę zainstalowanych wtyczek, stan sieci, orientację ekranu, rozmiar ekranu, określone poziomy powiększenia, obsługiwane typy plików, kolory systemu oraz możliwości WebGL.">
+<!ENTITY torbutton.prefs.sec_caption "Poziom bezpieczeństwa">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "Suwak poziomu bezpieczeństwa pozwala na wyłączenie pewnych funkcji przeglądarki, które mogą uczynić ten program bardziej narażonym na próby ataku hakerskiego.">
+<!ENTITY torbutton.prefs.sec_standard_label "Standard">
+<!ENTITY torbutton.prefs.sec_standard_description "All Tor Browser and website features are enabled.">
+<!ENTITY torbutton.prefs.sec_safer_label "Safer">
+<!ENTITY torbutton.prefs.sec_safer_description "Disables website features that are often dangerous, causing some sites to lose functionality.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "At the safer setting:">
+<!ENTITY torbutton.prefs.sec_safest_label "Safest">
+<!ENTITY torbutton.prefs.sec_safest_description "Only allows website features required for static sites and basic services. These changes affect images, media, and scripts.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "At the safest setting:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Learn more">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript is disabled on non-HTTPS sites.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript is disabled by default on all sites.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Some fonts and math symbols are disabled.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Some fonts, icons, math symbols, and images are disabled.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Audio and video (HTML5 media) are click-to-play.">
+<!ENTITY torbutton.circuit_display.title "Obwód Tor dla tej strony">
