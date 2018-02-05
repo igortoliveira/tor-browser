@@ -442,6 +442,10 @@
 @BINPATH@/chrome/devtools@JAREXT@
 @BINPATH@/chrome/devtools.manifest
 
+; Tor Button
+@BINPATH@/chrome/torbutton@JAREXT@
+@BINPATH@/chrome/torbutton.manifest
+
 ; [Default Preferences]
 ; All the pref files must be part of base to prevent migration bugs
 @BINPATH@/@PREF_DIR@/mobile.js
@@ -449,6 +453,7 @@
 @BINPATH@/ua-update.json
 @BINPATH@/greprefs.js
 @BINPATH@/defaults/autoconfig/prefcalls.js
+@BINPATH@/@PREF_DIR@/preferences.js
 
 ; [Layout Engine Resources]
 ; Style Sheets, Graphics and other Resources used by the layout engine.
