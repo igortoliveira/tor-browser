@@ -6,17 +6,29 @@
   <script type="application/javascript" src="/tests/SimpleTest/SimpleTest.js"></script>
   <script type="application/javascript" src="/tests/SimpleTest/SpawnTask.js"></script>
   <style type="text/css">
+    @font-face {
+      font-family: Ahem;
+      src: url(../layout/reftests/fonts/Ahem.ttf);
+    }
+
     span {
       background-color: #000;
       color: #fff;
+      font-family: Ahem;
       font-size: 16.5px;
     }
   </style>
 </head>
 <body>
-<span id="test1">Test1</span>
-<span id="test2">كلمة</span>
-<span id="test3">ação</span>
+  <div id="test1-parent">
+    <span id="test1">Test1</span>
+  </div>
+  <div id="test2-parent">
+    <span id="test2">كلمة</span>
+  </div>
+  <div id="test3-parent">
+    <span id="test3">ação</span>
+  </div>
 <script type="application/javascript;version=1.7">
 
 let setPref = function* (key, value) {
@@ -31,10 +43,11 @@ function getStyle(el, styleprop) {
 }
 
 function validateElement(elementName, isFingerprintResistent) {
-  var fontSize = getStyle(elementName, 'font-size');
-  var lineHeight = getStyle(elementName, 'line-height');
-  var validationCb = isFingerprintResistent ? is : isnot;
-  validationCb(parseFloat(lineHeight), parseFloat(fontSize) * 1.2, 'Line Height validation');
+  const elementClientRects = document.getElementById(elementName + "-parent").getClientRects();
+  const calculatedHeight = elementClientRects.reduce((acc, currentValue) => acc + currentValue.height, 0);
+  const lineHeight = getStyle(elementName, 'line-height');
+  const validationCb = isFingerprintResistent ? is : isnot;
+  validationCb(parseFloat(lineHeight), parseFloat(calculatedHeight.toFixed(2)), 'Line Height validation');
 }
 
 add_task(function* () {
